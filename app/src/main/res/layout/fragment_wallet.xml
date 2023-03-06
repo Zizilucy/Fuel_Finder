@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WalletFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/linear_li"
+        android:orientation="horizontal"/>
+
+    <TextView
+        android:id="@+id/wallet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Wallet"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold|normal" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="346dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_baseline_info_24" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700"
+        android:orientation="horizontal"/>
+
+    <ImageView
+        android:id="@+id/points"
+        android:layout_width="54dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/ic_baseline_corporate_fare_24" />
+
+    <TextView
+        android:id="@+id/loyaltypoint"
+        android:layout_width="191dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/purple"
+        android:gravity="left"
+        android:text="Loyalty Points"
+        android:textColor="@color/purple_700"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lotext"
+        android:layout_width="191dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="150dp"
+        android:background="@color/purple"
+        android:gravity="left"
+        android:text="Get spendable coins every time you use this app"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/locoins"
+        android:layout_width="191dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="244dp"
+        android:background="@color/purple"
+        android:gravity="left"
+        android:text="200 coins"
+        android:textColor="@color/purple_700"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/referbonus"
+        android:layout_width="55dp"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_baseline_group_add_24" />
+
+    <TextView
+        android:id="@+id/referbonus2"
+        android:layout_width="180dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/green"
+        android:gravity="left"
+        android:text="Referral bonus"
+        android:textColor="@color/dark_green"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/reftext"
+        android:layout_width="180dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="150dp"
+        android:background="@color/green"
+        android:gravity="left"
+        android:text="Refer and earn. Accumulate spendable coins as you refer."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/refcoins"
+        android:layout_width="182dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="255dp"
+        android:background="@color/green"
+        android:gravity="left"
+        android:text="200 coins"
+        android:textColor="@color/dark_green"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="350dp"
+        android:text="History"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="350dp"
+        android:text="Sort by:"
+        android:textStyle="normal"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="350dp"
+        android:textColor="@color/black"
+        android:text="Recent"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+</RelativeLayout>
+
