@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Fuel Finder</string>
+    <string name="messageWithLink"><a href="https://www.google.com/">Sign In to Google</a></string>
 </resources>

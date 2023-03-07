@@ -28,4 +28,16 @@ class LocateFragment : Fragment() {
         // TODO: Use the ViewModel
     }
 
+    override fun onCreate() {
+        super.onCreate()
+
+        configureDependencyInjection()
+    }
+
+    private fun configureDependencyInjection() {
+        startKoin {
+            androidContext(this@LocateFragment)
+            modules(searchModule)
+        }
+    }
 }

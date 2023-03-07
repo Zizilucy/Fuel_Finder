@@ -5,8 +5,10 @@
       <map>
         <entry key="..\:/Users/EZINNE N/AndroidStudioProjects/FuelFinder3/app/src/main/res/drawable-v24/input_big.xml" value="0.1265" />
         <entry key="..\:/Users/EZINNE N/AndroidStudioProjects/FuelFinder3/app/src/main/res/drawable/goggle.xml" value="0.1" />
+        <entry key="..\:/Users/EZINNE N/AndroidStudioProjects/FuelFinder3/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.2595" />
         <entry key="..\:/Users/EZINNE N/AndroidStudioProjects/FuelFinder3/app/src/main/res/drawable/ic_launcher_foreground_payment.xml" value="0.117" />
         <entry key="..\:/Users/EZINNE N/AndroidStudioProjects/FuelFinder3/app/src/main/res/drawable/input_big.xml" value="0.1" />
+        <entry key="..\:/Users/EZINNE N/AndroidStudioProjects/FuelFinder3/app/src/main/res/drawable/shape.xml" value="0.2595" />
         <entry key="..\:/Users/EZINNE N/AndroidStudioProjects/FuelFinder3/app/src/main/res/layout/activity_get_user_current_location.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/EZINNE N/AndroidStudioProjects/FuelFinder3/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/EZINNE N/AndroidStudioProjects/FuelFinder3/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
@@ -21,6 +23,7 @@
         <entry key="..\:/Users/EZINNE N/AndroidStudioProjects/FuelFinder3/app/src/main/res/layout/locate_station.xml" value="0.253125" />
         <entry key="..\:/Users/EZINNE N/AndroidStudioProjects/FuelFinder3/app/src/main/res/layout/log_in.xml" value="0.1640625" />
         <entry key="..\:/Users/EZINNE N/AndroidStudioProjects/FuelFinder3/app/src/main/res/layout/loyaltypoints.xml" value="0.264" />
+        <entry key="..\:/Users/EZINNE N/AndroidStudioProjects/FuelFinder3/app/src/main/res/layout/redeem_points.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/EZINNE N/AndroidStudioProjects/FuelFinder3/app/src/main/res/layout/referralbonus.xml" value="0.22760416666666666" />
         <entry key="..\:/Users/EZINNE N/AndroidStudioProjects/FuelFinder3/app/src/main/res/layout/referralpage.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/EZINNE N/AndroidStudioProjects/FuelFinder3/app/src/main/res/layout/set2.xml" value="0.15217391304347827" />

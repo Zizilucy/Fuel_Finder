@@ -8,27 +8,27 @@
 
     <ImageView
         android:id="@+id/Profile"
-        android:layout_width="41dp"
-        android:layout_height="46dp"
+        android:layout_width="66dp"
+        android:layout_height="65dp"
         android:layout_gravity="center"
-        android:src="@drawable/fuelfinder"
-        tools:layout_editor_absoluteX="185dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/idSlideOneImage"
         android:layout_width="413dp"
         android:layout_height="308dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
         android:padding="10dp"
         android:src="@drawable/fuelstation"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="46dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/idSlideOneTitle"

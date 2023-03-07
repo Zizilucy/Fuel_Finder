@@ -22,9 +22,6 @@
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
-            android:name=".Get_user_current_location"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -33,6 +30,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="com.google.android.geo.API_key"
+            android:value="@string/GOOGLE_MAP5_API_KEY"/>
     </application>
 
 </manifest>

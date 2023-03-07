@@ -19,8 +19,43 @@
         android:textSize="30dp"
         android:textStyle="bold|normal"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="30dp"
-        />
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="365dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="17dp"
+        android:background="@color/purple"
+        android:gravity="left"
+        android:text="Total points"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/purple"
+        android:gravity="left"
+        android:text="3000 Coins"
+        android:textColor="@color/purple_700"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_1"
+        android:layout_width="365dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:background="@color/purple"
+        android:gravity="right"
+        android:text="Redeem points"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -39,15 +74,43 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="30dp"
+        android:background="@drawable/shape"
         android:padding="5dp"
         android:paddingLeft="0dp"
         android:paddingRight="0dp"
         android:paddingTop="0dp"
         android:paddingBottom="0dp"
         android:inputType="text"
-        android:background="@drawable/input_big"
         android:text="Input a code"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold|normal"
+        android:layout_marginTop="1dp"
+        android:layout_gravity="center"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:id="@+id/gmail"
+        android:layout_width="41dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="100dp"
+        android:src="@drawable/gmail" />
+
+    <ImageView
+        android:layout_width="41dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="100dp"
+        android:src="@drawable/whatsapp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -63,7 +126,7 @@
         android:layout_height="wrap_content"
         android:text="1. Invite friends and family via referral code or link"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="16dp"
         android:textStyle="normal"
         android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"/>
@@ -72,19 +135,19 @@
         android:layout_height="wrap_content"
         android:text="2. They download app and use the locate features"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="16dp"
         android:textStyle="normal"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="16dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="3. Boom, you earn coins"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="16dp"
         android:textStyle="normal"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="17dp"
         />
 
 </LinearLayout>
