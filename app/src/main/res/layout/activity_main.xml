@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
-        android:text="Sign In"
+        android:text="Log In"
         android:textColor="@color/black"
         android:textSize="30dp"
         android:textStyle="bold|normal" />
@@ -103,7 +103,7 @@
         android:layout_gravity="center"
         android:layout_marginBottom="20dp"
         android:background="@drawable/input_big"
-        android:text="Sign In" />
+        android:text="Log In" />
     <TextView
         android:id="@+id/t_forgot_password"
         android:layout_width="wrap_content"

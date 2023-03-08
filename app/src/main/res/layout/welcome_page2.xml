@@ -35,7 +35,7 @@
         android:textSize="20dp"
         android:gravity="center"/>
     <Button
-        android:id="@+id/button"
+        android:id="@+id/get_started_button"
         android:layout_width="350dp"
         android:layout_height="70dp"
         android:layout_gravity="center"
@@ -51,25 +51,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"/>
     <TextView
-        android:id="@+id/have_an_account"
+        android:id="@+id/haveaccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Already have an account?"
+        android:text="Already have an account? Log in"
         android:textStyle="normal"
         android:textColor="@color/black"
         android:textSize="20dp"
         android:layout_gravity="center"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:text="Log in?"
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        android:textStyle="normal" />
-
 
 </LinearLayout>
