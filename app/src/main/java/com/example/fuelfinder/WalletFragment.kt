@@ -1,31 +1,42 @@
 package com.example.fuelfinder
 
-import androidx.lifecycle.ViewModelProvider
+import android.content.Intent
+
 import android.os.Bundle
+import android.text.method.LinkMovementMethod
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.widget.TextView
+import kotlinx.android.synthetic.main.fragment_wallet.*
 
 class WalletFragment : Fragment() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        val bookingstextview = findViewById<TextView>(R.id.bookings)
+        bookingstextview.setOnClickListener {
+            val intent = Intent(this, bookings::class.java)
+            startActivity(intent)
 
-    companion object {
-        fun newInstance() = WalletFragment()
+            bookings.movementMethod = LinkMovementMethod.getInstance();
+        }
     }
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        val referralbonustextview = findViewById<TextView>(R.id.bookings)
+        referralbonustextview.setOnClickListener {
+            val intent = Intent(this, referbonus2::class.java)
+            startActivity(intent)
 
-    private lateinit var viewModel: WalletViewModel
-
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.fragment_wallet, container, false)
+            referbonus2.movementMethod = LinkMovementMethod.getInstance();
+        }
     }
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        val LoyaltyPointstextview = findViewById<TextView>(R.id.bookings)
+        LoyaltyPointstextview.setOnClickListener {
+            val intent = Intent(this, loyaltypoint::class.java)
+            startActivity(intent)
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(WalletViewModel::class.java)
-        // TODO: Use the ViewModel
+            loyaltypoint.movementMethod = LinkMovementMethod.getInstance();
+        }
     }
-
 }

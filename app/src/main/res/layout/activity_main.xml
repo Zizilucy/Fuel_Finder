@@ -97,7 +97,7 @@
         android:textSize="15dp" />
 
     <Button
-        android:id="@+id/btn_sign_in"
+        android:id="@+id/btn_log_in"
         android:layout_width="335dp"
         android:layout_height="37dp"
         android:layout_gravity="center"

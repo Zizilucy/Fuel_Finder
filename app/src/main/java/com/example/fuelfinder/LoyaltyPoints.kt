@@ -3,18 +3,17 @@ package com.example.fuelfinder
 import android.graphics.Bitmap
 import android.graphics.Point
 import android.os.Bundle
+import android.text.TextUtils
 import android.view.Display
 import android.view.WindowManager
 import android.widget.Button
-import android.text.TextUtils
-import android.widget.ImageView
 import android.widget.EditText
+import android.widget.ImageView
 import android.widget.Toast
 import android.widget.*
 import androidmads.library.qrgenerator.QRGContents
-import androidmads.library.qrgenerator.QRGEncoder
+import androidmads.library.qrgenerator.QRGContents
 import androidx.appcompat.app.AppCompatActivity
-import com.example.fuelfinder.databinding.ActivityMainBinding
 
 class LoyaltyPoints : AppCompatActivity() {
     lateinit var qrIV: ImageView
@@ -58,3 +57,4 @@ class LoyaltyPoints : AppCompatActivity() {
         }
     }
 }
+

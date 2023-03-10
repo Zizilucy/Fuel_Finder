@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_new_24" />
+    <TextView
+        android:id="@+id/booking_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking details"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold|normal"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name of Fuel Station"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold|normal"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:id="@+id/station_name"
+        android:layout_width="347dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:inputType="text"
+        android:text="Samad Oils"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold|normal"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:id="@+id/full_name"
+        android:layout_width="347dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:inputType="text"
+        android:text="Esther Omo-Idonije"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plate Number"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold|normal"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/plate_number"
+        android:layout_width="349dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:inputType="text"
+        android:text="FAFAFA"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location Status"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold|normal"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/loc_status"
+        android:layout_width="367dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:inputType="text"
+        android:text="Arrived"
+        android:textSize="30dp" />
+    <Button
+        android:id="@+id/get_reward_btn"
+        android:layout_width="787dp"
+        android:layout_height="97dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Get reward"
+        android:textSize="30dp"/>
+
+</LinearLayout>

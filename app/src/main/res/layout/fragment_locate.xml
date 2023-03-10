@@ -6,30 +6,33 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".LocateFragment">
+
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/nav_host_fragment"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:defaultNavHost="true"
-        app:navGraph="@navigation/app_nav_graph"/>
-
-    <TextView
-        android:id="@+id/locate"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Locate fuel stations"
-        android:textSize="40dp"
-        android:textColor="@color/black"
-        android:textStyle="italic|bold"
-        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"/>
+        app:layout_constraintVertical_bias="0.0"
+        app:navGraph="@navigation/app_nav_graph" />
+
+    <Button
+        android:id="@+id/locate_fuel_stations"
+        android:layout_width="310dp"
+        android:layout_height="82dp"
+        android:gravity="center"
+        android:text="Locate fuel stations"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
